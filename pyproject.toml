@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "renovate-test"
+version = "0.1.0"
+description = ""
+authors = ["Wenceslas des Déserts <wenceslas.des-deserts@cybelangel.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+datadog = "^0.51.0"
+
+
+[tool.poetry.group.dev.dependencies]
+ipython = "^8.31.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
